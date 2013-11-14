@@ -4,8 +4,8 @@
 }
 
 function Install-PhantomJSDriver() {
-	Write-Host "Installing phantomjs.exe package"
-	Install-Package phantomjs.exe
+	Write-Host "Installing PhantomJS package"
+	Install-Package PhantomJS
 	
 	Write-Host "Marking phantomjs.exe as embedded resource."
 	Set-RootProjectFileAsEmbeddedResource "phantomjs.exe"
